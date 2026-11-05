@@ -1,136 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pandula Paramesh | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="navbar">
-        <h2 class="logo">PANDULA'S</h2>
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-
-    <!-- HERO SECTION -->
-    <header class="hero" id="hero">
-        <h1>Pandula Paramesh</h1>
-        <h2>Java & Full-Stack Developer</h2>
-        <p>
-            Computer Science undergraduate focused on building scalable,
-            database-driven and user-centric applications.
-        </p>
+    <meta
+      name="description"
+      content="Portfolio of Pandula Paramesh, a software developer working with Java, Python, REST APIs, full-stack applications, and SQL databases."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="#hero" class="brand"><span>P</span>Pandula</a>
+        <div class="nav-links">
+          <a href="#hero" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a href="#contact" class="nav-button">Hire Me</a>
+      </nav>
     </header>
 
-    <!-- ABOUT SECTION -->
-    <section class="about" id="about">
-        <h3>About Me</h3>
-        <p>
-            I am a Computer Science undergraduate with hands-on experience in Java,
-            database systems, and full-stack web development. I have worked on
-            real-world academic and internship projects involving backend
-            development, frontend integration, and system design.
-        </p>
-        <p>
-            I am passionate about solving problems through clean, maintainable
-            code and continuously improving my technical and analytical skills.
-        </p>
-    </section>
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Software Developer | Java | REST APIs | Problem Solving</p>
+          <h1>
+            Pandula <span class="highlight">Paramesh</span>
+          </h1>
+          <p>
+            Entry-level software developer with a B.Tech in Computer Science,
+            focused on building scalable backend systems, REST APIs, and
+            full-stack applications with clean and maintainable code.
+          </p>
 
-    <!-- SKILLS SECTION -->
-    <section class="skills" id="skills">
-        <h3>Technical Skills</h3>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#projects">View Projects</a>
+            <a class="secondary-btn" href="#contact">Let’s Talk</a>
+          </div>
+
+          <ul class="hero-highlights">
+            <li>Java</li>
+            <li>Python</li>
+            <li>REST APIs</li>
+            <li>MySQL</li>
+            <li>React</li>
+          </ul>
+        </div>
+
+        <div class="hero-card" aria-label="Profile summary">
+          <div class="portrait-frame">
+            <img
+              src="Assets/Images/Professional%20Studio%20Headshot.png"
+              alt="Pandula Paramesh portrait"
+              class="profile-photo"
+            />
+            <span class="availability-badge">Available for work</span>
+          </div>
+          <div class="profile-intro">
+            <p class="small-label">Software Developer</p>
+            <h3>Pandula Paramesh</h3>
+          </div>
+
+          <div class="stats">
+            <div class="stat-box">
+              <strong>2026</strong>
+              <span>B.Tech graduate</span>
+            </div>
+            <div class="stat-box">
+              <strong>7.55</strong>
+              <span>CGPA</span>
+            </div>
+            <div class="stat-box">
+              <strong>3</strong>
+              <span>Major projects</span>
+            </div>
+            <div class="stat-box">
+              <strong>10+</strong>
+              <span>REST endpoints planned</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Developer with strong fundamentals and practical execution.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I’m an entry-level software developer with a B.Tech in Computer
+              Science completed in 2026 with a CGPA of 7.55/10 and no arrears.
+              My foundation includes data structures, algorithms, object-oriented
+              design, and software engineering practices.
+            </p>
+            <p>
+              I have built backend and full-stack projects using Java, Python,
+              REST APIs, and SQL databases, and I enjoy writing, testing, and
+              debugging code that is both efficient and maintainable.
+            </p>
+          </div>
+
+          <div class="about-panel">
+            <div class="info-item">
+              <span>Location</span>
+              <strong>Hyderabad, India</strong>
+            </div>
+            <div class="info-item">
+              <span>Email</span>
+              <strong>parameshpandula77@gmail.com</strong>
+            </div>
+            <div class="info-item">
+              <span>Focus</span>
+              <strong>Java, APIs, SQL, full-stack development</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Technologies I work with.</h2>
+        </div>
 
         <div class="skills-grid">
-            <div class="skill-card">Java</div>
-            <div class="skill-card">JavaScript</div>
-            <div class="skill-card">HTML</div>
-            <div class="skill-card">CSS</div>
-            <div class="skill-card">MySQL</div>
-            <div class="skill-card">Node.js</div>
-            <div class="skill-card">REST APIs</div>
-            <div class="skill-card">Git & GitHub</div>
+          <div class="skill-group">
+            <h3>Programming</h3>
+            <ul class="tag-list">
+              <li>Java</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>JUnit</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Web & APIs</h3>
+            <ul class="tag-list">
+              <li>REST API</li>
+              <li>GraphQL</li>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Core CS</h3>
+            <ul class="tag-list">
+              <li>DSA</li>
+              <li>OOP</li>
+              <li>Design Patterns</li>
+              <li>Debugging</li>
+              <li>Agile</li>
+            </ul>
+          </div>
         </div>
-    </section>
-            <!-- PROJECTS SECTION -->
-    <section class="projects" id="projects">
-        <h3>Projects</h3>
+      </section>
 
-        <div class="project-card">
-            <h4>Student Management System</h4>
-            <img src="assets/images/student-management.png" alt="Student Management System">
+      <section class="section feature-section">
+        <div class="section-heading">
+          <p class="eyebrow">What I do</p>
+          <h2>Building reliable systems from idea to deployment.</h2>
+        </div>
 
-            <p class="tech">Java, MySQL, JDBC, React</p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">01</div>
+            <h3>Backend Systems</h3>
             <p>
-                Designed and developed a full-stack Student Management System
-                to manage student records, attendance, and academic performance.
-                Implemented secure CRUD operations using Java and JDBC, and
-                optimized MySQL queries for efficient data handling.
+              Designing scalable Java and API-driven services with robust logic,
+              maintainable structure, and production-ready architecture.
             </p>
-        </div>
+          </article>
 
-        <div class="project-card">
-            <h4>Agri Marketing Platform</h4>
-            <p class="tech">HTML, CSS, JavaScript, Node.js, MySQL</p>
+          <article class="feature-card">
+            <div class="feature-icon">02</div>
+            <h3>Full-Stack Products</h3>
             <p>
-                Built a digital platform connecting farmers directly with buyers.
-                Implemented user authentication, role-based access control, and
-                real-time market insights to reduce dependency on intermediaries
-                and improve pricing transparency.
+              Bridging frontend and backend with intuitive interfaces, data models,
+              and workflows that feel smooth for real users.
             </p>
-        </div>
-    </section>
-            <!-- EXPERIENCE SECTION -->
-    <section class="experience" id="experience">
-        <h3>Internship Experience</h3>
+          </article>
 
-        <div class="experience-card">
-            <h4>Java Developer Intern — NSIC</h4>
-            <p class="duration">May 2023 – October 2023</p>
+          <article class="feature-card">
+            <div class="feature-icon">03</div>
+            <h3>Data & Optimization</h3>
             <p>
-                Collaborated with cross-functional teams to design and develop a
-                Student Management System. Translated business requirements into
-                structured technical modules, implemented backend logic using
-                Java and MySQL, and supported frontend integration and testing.
+              Improving performance through query analysis, debugging, and data-driven
+              insight generation for smarter software decisions.
             </p>
+          </article>
         </div>
-    </section>
+      </section>
 
-    <!-- CERTIFICATIONS SECTION -->
-    <section class="certifications">
-        <h3>Certifications & Achievements</h3>
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work and problem-solving builds.</h2>
+        </div>
 
-        <ul>
-            <li>Deloitte Data Analytics Job Simulation (Forage)</li>
-            <li>AWS Solutions Architecture Job Simulation (Forage)</li>
-            <li>Tata Data Visualization Job Simulation (Forage)</li>
-            <li>Java Programming Fundamentals — Wingspan</li>
-            <li>GATE Score: 1191</li>
+        <div class="project-list">
+          <article class="project-card">
+            <img src="Assets/Images/student-management.png" alt="CloudFile Manager project dashboard" />
+            <div class="project-body">
+              <span class="project-tag">Backend</span>
+              <h3>CloudFile Manager</h3>
+              <p>
+                Designed and built a multi-user secure file storage backend using
+                Java, applying object-oriented design and design-pattern principles
+                to keep the codebase maintainable as requirements evolved.
+              </p>
+              <ul class="tech-list">
+                <li>Java</li>
+                <li>REST APIs</li>
+                <li>JUnit</li>
+                <li>OOP</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="Assets/Images/bg.jpg" alt="Fat Loss Prediction System project dashboard" />
+            <div class="project-body">
+              <span class="project-tag">ML + Full-Stack</span>
+              <h3>Fat Loss Prediction System</h3>
+              <p>
+                Built a full-stack health analytics platform with a Node.js/Express.js
+                API and MySQL database, serving machine-learning predictions to a
+                React.js dashboard for progress tracking and comparative reporting.
+              </p>
+              <ul class="tech-list">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MySQL</li>
+                <li>React.js</li>
+                <li>ML</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="Assets/Images/student-management.png" alt="SQL Query Analyzer and Optimizer Tool" />
+            <div class="project-body">
+              <span class="project-tag">Optimization</span>
+              <h3>SQL Query Analyzer and Optimizer Tool</h3>
+              <p>
+                Developed a Java/Python tool that scans SQL queries for anti-patterns,
+                diagnoses inefficiencies, and helps rewrite slow logic for improved
+                performance and execution speed.
+              </p>
+              <ul class="tech-list">
+                <li>Java</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Performance</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Projects and learning experience.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">2026</p>
+              <h3>CloudFile Manager</h3>
+              <p class="timeline-company">Backend application development</p>
+              <p>
+                Designed a multi-user secure file storage service, planned 10+ REST
+                API endpoints before implementation, and wrote JUnit tests to catch
+                edge cases throughout development.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">2026</p>
+              <h3>Fat Loss Prediction System</h3>
+              <p class="timeline-company">Health analytics platform</p>
+              <p>
+                Cleansed and analyzed health data, evaluated Linear Regression and
+                Random Forest Regression models, and transformed model outputs into
+                user-friendly insights via a dashboard experience.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="certifications-title">
+        <div class="section-heading">
+          <p class="eyebrow">Education & Certifications</p>
+          <h2 id="certifications-title">Academic and technical background.</h2>
+        </div>
+
+        <ul class="cert-list">
+          <li>B.Tech, Computer Science and Engineering — Anurag University, Hyderabad (Graduated May 2026)</li>
+          <li>CGPA: 7.55 / 10</li>
+          <li>Diploma — TKR College (2020 – 2023) | Percentage: 62.5%</li>
+          <li>Siddaratha High School — Board of Secondary Education, Telangana (2019 – 2020) | Percentage: 92.15%</li>
+          <li>Java Programming Fundamentals — Wingspan</li>
+          <li>Oracle Java Explorer Challenge — Oracle University</li>
         </ul>
-    </section>
+      </section>
 
-    <!-- CONTACT SECTION -->
-    <section class="contact" id="contact">
-        <h3>Contact</h3>
+      <section class="section" id="contact">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something useful.</h2>
+            <p>
+              I’m open to software development roles, internships, and collaborative
+              opportunities where I can contribute with Java, backend APIs, and
+              problem-solving skills.
+            </p>
+          </div>
 
-        <p>Email: <a href="mailto:23eg505g04@anurag.edu.in">23eg505g04@anurag.edu.in</a></p>
-        <p>Phone: +91 7674051061</p>
-        <p>Location: Hyderabad, Telangana, India</p>
-    </section>
+          <div class="contact-details">
+            <a href="mailto:parameshpandula77@gmail.com">Email Me</a>
+            <a href="tel:+917674051061">Call +91 7674051061</a>
+            <a href="https://github.com/Pandula-codez" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer class="footer">© 2026 Pandula Paramesh</footer>
 
-    <script src="script.js"></script>
-</body>
-
+    <script src="Script.js"></script>
+  </body>
 </html>
